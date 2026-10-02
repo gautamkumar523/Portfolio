@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Gautam Kumar - Frontend Web Developer</title>
+
+    <meta name="description" content="Get in touch with Gautam Kumar for web development opportunities, video editing projects, or freelance inquiries in Patna, Bihar, India.">
+    <meta name="author" content="Gautam Kumar">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/profile.jpg">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Glow Blobs -->
+    <div class="blob-bg blob-1"></div>
+    <div class="blob-bg blob-2"></div>
+    <div class="blob-bg blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-tag">&lt;</span>Gautam<span class="logo-tag">/&gt;</span>
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="videos.html" class="nav-link">Creative Media</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="assets/Gautam_Kumar_Resume_ATS.pdf" download="Gautam_Kumar_Resume.pdf" class="btn btn-resume nav-resume-btn" title="Download Resume PDF">
+                    <i class="fas fa-file-download"></i>
+                    <span>Resume</span>
+                </a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="section-container">
+                <div class="page-tag">
+                    <i class="fas fa-paper-plane"></i> Let's Connect
+                </div>
+                <h1>Get In <span class="highlight-gradient">Touch</span></h1>
+                <p>Have a question, job opportunity, or video editing project? I'd love to hear from you. Send a message below!</p>
+            </div>
+        </section>
+
+        <!-- Contact Main Section -->
+        <section class="section">
+            <div class="section-container">
+                <div class="contact-grid">
+                    <!-- Left: Contact Details Card -->
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <p class="contact-sub">
+                            Feel free to reach out via email, direct call, or through social media. I am open to full-time roles, internships, and freelance contracts.
+                        </p>
+
+                        <div class="contact-details">
+                            <!-- Email -->
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Email Address</span>
+                                    <a href="mailto:gautam1523@gmail.com" class="contact-val">gautam1523@gmail.com</a>
+                                </div>
+                                <button class="copy-btn" id="copy-email-btn" title="Copy Email">
+                                    <i class="far fa-copy"></i>
+                                </button>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Call / WhatsApp</span>
+                                    <a href="tel:+916204551523" class="contact-val">+91 6204551523</a>
+                                </div>
+                            </div>
+
+                            <!-- Location -->
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-val">Patna, Bihar, India</span>
+                                </div>
+                            </div>
+
+                            <!-- Video Drive -->
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fab fa-google-drive"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label">Video Portfolio</span>
+                                    <a href="https://drive.google.com/drive/folders/1fnpWVgMKxnuVFxJ9UNjNmd7rNu_-6KGL?usp=drive_link" target="_blank" rel="noopener noreferrer" class="contact-val" style="color: var(--primary);">
+                                        Open Google Drive Folder
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Resume Download Option -->
+                            <div class="contact-item" style="border-color: rgba(16, 185, 129, 0.3); background: rgba(16, 185, 129, 0.06);">
+                                <div class="contact-icon" style="color: #34d399; background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.3);">
+                                    <i class="fas fa-file-download"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="contact-label" style="color: #34d399;">Official Resume</span>
+                                    <a href="assets/Gautam_Kumar_Resume_ATS.pdf" download="Gautam_Kumar_Resume.pdf" class="contact-val" style="color: #34d399;">
+                                        Download Gautam_Kumar_Resume.pdf
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Handles -->
+                        <div class="social-box">
+                            <span class="social-box-title">Social Profiles & Repositories</span>
+                            <div class="social-icons">
+                                <a href="https://github.com/gautamkumar523" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/gautam-kumar-48a012330" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.instagram.com/kumar_gautam523/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100069651140877" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Contact Form -->
+                    <div class="contact-form-card">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <div class="input-wrap">
+                                    <i class="far fa-user"></i>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <div class="input-wrap">
+                                    <i class="far fa-envelope"></i>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <div class="input-wrap">
+                                    <i class="fas fa-tag"></i>
+                                    <input type="text" id="subject" name="subject" placeholder="Web Development / Video Editing Opportunity" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <div class="input-wrap textarea-wrap">
+                                    <i class="far fa-comment-dots"></i>
+                                    <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, timeline, budget or requirements..." required></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+
+                            <div class="form-status" id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container footer-content">
+            <div class="footer-logo">
+                <a href="index.html" class="logo">
+                    <span class="logo-tag">&lt;</span>Gautam<span class="logo-tag">/&gt;</span>
+                </a>
+                <p>Web Developer & Video Editor | Turning creative ideas into responsive digital solutions.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skills.html">Skills & Tools</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="videos.html">Video Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Patna, Bihar</h4>
+                <p><i class="fas fa-envelope"></i> gautam1523@gmail.com</p>
+                <p><i class="fas fa-phone-alt"></i> +91 6204551523</p>
+                <p><i class="fab fa-google-drive"></i> <a href="https://drive.google.com/drive/folders/1fnpWVgMKxnuVFxJ9UNjNmd7rNu_-6KGL?usp=drive_link" target="_blank" rel="noopener noreferrer" style="color: var(--primary);">View Video Drive</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gautam Kumar. All Rights Reserved. Crafted with care & code.</p>
+            <a href="contact.html" class="back-to-top" aria-label="Back to Top">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
