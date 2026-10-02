@@ -159,4 +159,16 @@ document.addEventListener("DOMContentLoaded", () => {
             }, 800);
         });
     }
+
+    // --- 6. Back to Top Button Smooth Scroll ---
+    const backToTopBtns = document.querySelectorAll(".back-to-top");
+    backToTopBtns.forEach(btn => {
+        btn.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    });
 });
